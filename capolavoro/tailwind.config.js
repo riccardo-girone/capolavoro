@@ -12,6 +12,9 @@ module.exports = {
       'font-color': '#ffffff'
     },
 
+    fontSize: {
+      'number-fontsize': '10rem'
+    },
 
     extend: {
     },
