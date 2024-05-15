@@ -1,8 +1,6 @@
 const Gallery = () => {
     return(
-        <div>
-            
-        </div>
+        <div className='h-screen w-3/5 bg-bg-color-blue'></div>
     );
 }
 

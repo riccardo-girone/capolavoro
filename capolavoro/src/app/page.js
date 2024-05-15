@@ -1,8 +1,10 @@
+import HomePage from "../components/Home/Home.jsx";
+
 const Home = () => {
     return (
-        <div>
-
-        </div>
+        <>
+            <HomePage/>
+        </>
     );
 }
 

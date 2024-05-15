@@ -1,8 +1,6 @@
 const About = () => {
     return(
-        <div>
-            
-        </div>
+        <div className='h-screen w-2/5 bg-bg-color-primary'></div>
     );
 }
 
