@@ -7,9 +7,9 @@ module.exports = {
   ],
   theme: {
     colors: {
-      'bg-color-primary': '#1b1b1a',
-      'bg-color-blue': '#1b16df',
-      'font-color': '#ffffff'
+      'color-primary': '#1b1b1a',
+      'color-blue': '#1b16df',
+      'color-white': '#ffffff'
     },
 
     fontSize: {
