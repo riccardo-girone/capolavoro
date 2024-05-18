@@ -4,6 +4,7 @@ module.exports = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/globals.css"
   ],
   theme: {
     colors: {
@@ -13,10 +14,15 @@ module.exports = {
     },
 
     fontSize: {
-      'number-fontsize': '10rem'
+      'number-fontsize': '10rem',
+      'sub-titel': '1.5rem'
     },
 
     extend: {
+      fontFamily: {
+        primary: ["Public Sans", "sans-serif"],
+        secondary: ["Roboto Mono", "monospace"],
+      }
     },
   },
   plugins: [],
