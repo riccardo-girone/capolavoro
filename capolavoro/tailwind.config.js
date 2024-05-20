@@ -14,8 +14,8 @@ module.exports = {
     },
 
     fontSize: {
-      'number-fontsize': '10rem',
-      'sub-titel': '1.5rem'
+      'number-fontsize': 'clamp(3rem, 6vw, 30rem)',
+      'sub-titel': 'clamp(0.3rem, 5vw, 1.2rem)',
     },
 
     extend: {
