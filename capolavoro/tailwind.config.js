@@ -14,14 +14,20 @@ module.exports = {
     },
 
     fontSize: {
-      'number-fontsize': 'clamp(3rem, 6vw, 30rem)',
-      'sub-titel': 'clamp(0.3rem, 5vw, 1.2rem)',
+      'number-fontsize': 'clamp(2rem, 8vw, 25rem)',
+      'sub-titel': 'clamp(1rem, 1.5vw, 5rem)',
+      'ex-fontsize': 'clamp(0.5rem, 1vw, 1.2rem)',
+      'normal-fontsize': 'clamp(0.4rem, 1vw, 1rem)',
     },
 
     extend: {
       fontFamily: {
         primary: ["Public Sans", "sans-serif"],
         secondary: ["Roboto Mono", "monospace"],
+      },
+
+      lineHeight: {
+        'eleven-height': 'clamp(1rem, 4vw, 7rem)',
       }
     },
   },
