@@ -1,0 +1,11 @@
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('/img/van3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}

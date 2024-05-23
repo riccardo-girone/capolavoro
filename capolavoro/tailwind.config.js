@@ -19,6 +19,11 @@ module.exports = {
       'normal-fontsize': 'clamp(0.4rem, 1vw, 1rem)',
     },
 
+    spacing: {
+      '404-1': '1.3vw',
+      '404-2': '5vw'
+    },
+
     extend: {
       fontFamily: {
         primary: ["Public Sans", "sans-serif"],
@@ -27,6 +32,10 @@ module.exports = {
 
       lineHeight: {
         'eleven-height': 'clamp(1rem, 4vw, 7rem)',
+      },
+
+      backgroundImage: {
+        '404': "url('/img/van3.jpg')",
       }
     },
   },
