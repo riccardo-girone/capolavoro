@@ -4,12 +4,22 @@ import styles from './not-found.module.css'
 export default function NotFound() {
   return (
     <div className={styles.content}>
-      <div className='gap-404-1 mb-404-2 flex justify-center items-center flex-col'>
-        <div>404</div>
-        <div className='font-primary font-extrabold text-sub-titel m-0 leading-10'>Page not Found</div>
-        <div>Sorry, we couldn't find the page you're looking for.</div>
+      <div className={styles.mainContent}>
+        <div className={styles.error}>404</div>
+        <div className={styles.title}>
+          <div>PAGE</div>
+          <div>NOT</div>
+          <div>FOUND</div>
+        </div>
+        <div className={styles.subTitle}>
+          <div>Sorry, what are you doing here?!</div>
+          <div>LET US COOK</div>
+        </div>
       </div>
-      <Link href="/">Back to home</Link>
+
+      <div className={styles.back}>
+        <Link href="/"> ← Back to home</Link>
+      </div>
     </div>
   )
 }
