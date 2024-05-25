@@ -5,6 +5,7 @@
     flex-direction: column;
     background-image: url('/img/404.png');
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     color: white;
     padding-top: 4vw;
@@ -36,6 +37,6 @@
 }
 
 .back {
-    font-size: 1vw;
-    font-weight: 800;
+    font-size: 1.2vw;
+    font-weight: 700;
 }

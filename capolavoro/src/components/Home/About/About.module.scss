@@ -1,0 +1,24 @@
+.contentContainer {
+    background-color: #1b1b1a;
+    width: 40%;
+    padding: 0 8vw 0 8vw;
+    color: white;
+
+    .titleWrapper {
+        margin-bottom: 10vw;
+        font-family: "Public Sans", sans-serif;
+
+        .titleNum {
+            font-weight: 900;
+            font-size: 8vw;
+            line-height: 8vw;
+        }
+        
+        .title {
+            font-weight: 700;
+            font-size: 1.5vw;
+            line-height: 1.6vw;
+        }
+    }
+}
+
