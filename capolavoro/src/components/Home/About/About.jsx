@@ -14,7 +14,7 @@ const About = () => {
 
             <div className={styles.myEx}>
                 <div className={styles.circle}></div>
-                <div className={styles.myExTitle}>MY PERSONAL EXPERIENCE</div>
+                <div>MY PERSONAL EXPERIENCE</div>
             </div>
 
             <div className={styles.Explenetion}>

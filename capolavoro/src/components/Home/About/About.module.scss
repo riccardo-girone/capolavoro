@@ -1,17 +1,22 @@
 .contentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
     background-color: #1b1b1a;
     width: 40%;
-    padding: 0 8vw 0 8vw;
+    padding: 0 13vw 0 13vw;
     color: white;
 
     .titleWrapper {
-        margin-bottom: 10vw;
+        margin-bottom: 13vw;
         font-family: "Public Sans", sans-serif;
 
         .titleNum {
             font-weight: 900;
             font-size: 8vw;
-            line-height: 8vw;
+            line-height: 6vw;
+            margin-bottom: 1.2vw;
         }
         
         .title {
@@ -19,6 +24,30 @@
             font-size: 1.5vw;
             line-height: 1.6vw;
         }
+    }
+
+    .myEx {
+        display: flex;
+        gap: .3vw;
+        align-items: center;
+        font-family: "Roboto Mono", monospace;
+        font-size: .8vw;
+        font-weight: 400;
+        margin-bottom: 8vw;
+        
+        .circle {
+            background-color: white;
+            height: .6vw;
+            width: .6vw;
+            border-radius: 10rem;
+        }
+    }
+    
+    .Explenetion {
+        font-family: "Roboto Mono", monospace;
+        font-size: .8vw;
+        font-weight: 300;
+        max-width: 16vw;
     }
 }
 
