@@ -1,0 +1,10 @@
+.content {
+    padding-right: 40%;
+    width: 100%;
+    background-color: #1b1b1a;
+    overflow-x: hidden;
+
+    ::-webkit-scrollbar {
+        display: none; 
+    }
+}

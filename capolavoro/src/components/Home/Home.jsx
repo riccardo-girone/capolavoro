@@ -3,7 +3,7 @@ import Gallery from "./Gallery/Gallery";
 
 const Home = () => {
     return(
-        <div className='h-screen flex'>
+        <div className='flex h-screen'>
             <Gallery/>
             <About/>
         </div>
