@@ -1,7 +1,27 @@
-.imgContainer {
-    overflow: none;
+.card {
+    margin-bottom: 1vw;
     
-    img {
-        height: 100%;
+    .imgContainer {
+        overflow: none;
+        
+        img {
+            height: 100%;
+        }
+    }
+    
+    .description {
+        color: #929292;
+        font-family: "Roboto Mono", monospace;
+        font-size: .7vw;
+        font-weight: 400;
+    }
+    
+    .title {
+        color: white;
+        font-family: "Roboto Mono", monospace;
+        font-size: .9vw;
+        font-weight: 600;
+        line-height: .8vw;
+    
     }
 }

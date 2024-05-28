@@ -3,7 +3,7 @@ export const gallaeryData = [
         img: "/img/goku.png",
         description: "Dragon ball -  akira toriyama",
         title: "01. Goku",
-        imgHeigth: "15vw"
+        imgHeigth: "25vw"
     },
     
     {
