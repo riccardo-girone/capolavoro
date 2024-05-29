@@ -19,7 +19,7 @@ const About = () => {
                 </div>
 
                 <div className={styles.Explenetion}>
-                    <div>
+                    <div className={styles.ExParagraf}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et interdum neque. Praesent id 
                     </div>
                     <div>
