@@ -18,14 +18,16 @@
     color: white;
 
     .titleWrapper {
-        margin-bottom: 13vw;
+        display: flex;
+        align-items: center;
+        margin-bottom: 8vw;
+        gap: .6vw;
         font-family: "Public Sans", sans-serif;
 
         .titleNum {
             font-weight: 900;
             font-size: 8vw;
             line-height: 6vw;
-            margin-bottom: 1.2vw;
         }
         
         .title {
@@ -35,32 +37,41 @@
         }
     }
 
+    
     .myEx {
         display: flex;
-        gap: .3vw;
+        gap: .5vw;
         align-items: center;
         font-family: "Roboto Mono", monospace;
         font-size: .8vw;
         font-weight: 400;
-        margin-bottom: 8vw;
+        margin-bottom: 7vw;
         
         .circle {
             background-color: white;
-            height: .6vw;
-            width: .6vw;
+            height: .5vw;
+            width: .5vw;
             border-radius: 10rem;
         }
     }
     
     .Explenetion {
         font-family: "Roboto Mono", monospace;
-        font-size: .8vw;
+        font-size: .65vw;
         font-weight: 300;
         max-width: 16vw;
+        margin-bottom: 5vw;
         
         .ExParagraf {
             margin-bottom: 1.5vw;
         }
+    }
+
+    .autor {
+        font-family: "Roboto Mono", monospace;
+        font-size: .45vw;
+        font-weight: 300;
+        margin-bottom: 8vw;
     }
 }
 
