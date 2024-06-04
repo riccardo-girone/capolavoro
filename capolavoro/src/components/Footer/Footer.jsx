@@ -1,4 +1,4 @@
-import Content from './Content';
+import Content from './FooterContent/Content.jsx';
 
 export default function Footer() {
   return (
