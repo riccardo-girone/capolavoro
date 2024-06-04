@@ -1,5 +1,6 @@
 'use client'
 import HomePage from "../components/Home/Home.jsx";
+import Footer from "@/components/Footer/Footer.jsx";
 import { useEffect } from "react";
 
 const Home = () => {
@@ -13,7 +14,10 @@ const Home = () => {
       }, [])
 
     return (
+      <>
         <HomePage/>
+        <Footer/>
+      </>
     );
 }
 
