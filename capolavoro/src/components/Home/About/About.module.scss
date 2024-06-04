@@ -20,7 +20,7 @@
     .titleWrapper {
         display: flex;
         align-items: center;
-        margin-bottom: 8vw;
+        margin-bottom: 7vw;
         gap: .6vw;
         font-family: "Public Sans", sans-serif;
 
@@ -37,13 +37,19 @@
         }
     }
 
+    .autor {
+        font-family: "Roboto Mono", monospace;
+        font-size: .7vw;
+        font-weight: 300;
+        margin-bottom: 12vw;
+    }
     
     .myEx {
         display: flex;
         gap: .5vw;
         align-items: center;
         font-family: "Roboto Mono", monospace;
-        font-size: .8vw;
+        font-size: 1vw;
         font-weight: 400;
         margin-bottom: 6vw;
         
@@ -57,21 +63,14 @@
     
     .Explenetion {
         font-family: "Roboto Mono", monospace;
-        font-size: .65vw;
+        font-size: .8vw;
         font-weight: 300;
-        max-width: 16vw;
-        margin-bottom: 5vw;
+        max-width: 18vw;
         
         .ExParagraf {
             margin-bottom: 1.5vw;
         }
     }
 
-    .autor {
-        font-family: "Roboto Mono", monospace;
-        font-size: .5vw;
-        font-weight: 300;
-        margin-bottom: 9vw;
-    }
 }
 
