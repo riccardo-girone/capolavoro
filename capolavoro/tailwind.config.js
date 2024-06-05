@@ -9,7 +9,8 @@ module.exports = {
   theme: {
     colors: {
       'color-primary': '#1b1b1a',
-      'color-white': '#ffffff'
+      'color-white': '#ffffff',
+      'color-white-2': '#fefeff'
     },
 
     fontSize: {
