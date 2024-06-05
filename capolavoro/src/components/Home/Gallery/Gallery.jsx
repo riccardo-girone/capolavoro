@@ -5,8 +5,8 @@ import styles from "./Gallery.module.scss"
 const Gallery = () => {
     return(
         <div className={styles.content}>
-            {gallaeryData.map(({ img, description, title, imgHeigth }, index) => (
-                <ImgGallery key={index} img={img} description={description} title={title} imgHeigth={imgHeigth}/>
+            {gallaeryData.map(({ img, description, title, imgHeigth, scrollSpeed}, index) => (
+                <ImgGallery key={index} img={img} description={description} title={title} imgHeigth={imgHeigth} scrollSpeed={scrollSpeed}/>
             ))}
         </div>
     );

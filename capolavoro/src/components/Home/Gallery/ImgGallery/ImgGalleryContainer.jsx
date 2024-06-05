@@ -2,7 +2,7 @@ import styles from './ImgGalleryContainer.module.scss'
 
 const ImgGalleryContainer = ({ img, description, title, imgHeigth, scrollSpeed}) => {
     return (
-        <div className={styles.card}>
+        <div className={styles.card} data-scroll data-scroll-speed={scrollSpeed}>
             <div className={styles.imgContainer} style={{height: imgHeigth}}>
                 <img src={img} alt="img"/>
             </div>
