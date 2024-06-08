@@ -1,10 +1,14 @@
+import styles from '@/components/Home/Gallery/ImgGallery/ImgGalleryContainer.module.scss'
+
 export const gallaeryData = [
     {
         img: "/img/goku.png",
         description: "Dragon ball -  akira toriyama",
         title: "01. Goku",
         imgHeigth: "25vw",
-        scrollSpeed: "0.1"
+        scrollSpeed: "0.1",
+        className: styles.prova1
+
     },
     
     {
@@ -14,6 +18,7 @@ export const gallaeryData = [
         imgHeigth: "15vw",
         scrollSpeed: "0"
     },
+
     {
         img: "/img/goku.png",
         description: "One pice - Eiichiro Oda",
@@ -21,6 +26,7 @@ export const gallaeryData = [
         imgHeigth: "15vw",
         scrollSpeed: "0.2"
     },
+
     {
         img: "/img/goku.png",
         description: "Devil man - go nagai",
@@ -28,6 +34,7 @@ export const gallaeryData = [
         imgHeigth: "15vw",
         scrollSpeed: "0"
     },
+
     {
         img: "/img/goku.png",
         description: "One pice - Eiichiro Oda",
@@ -35,6 +42,7 @@ export const gallaeryData = [
         imgHeigth: "15vw",
         scrollSpeed: "0.2"
     },
+
     {
         img: "/img/goku.png",
         description: "Ping pong - Taiyō Matsumoto",
@@ -42,13 +50,15 @@ export const gallaeryData = [
         imgHeigth: "15vw",
         scrollSpeed: "0"
     },
+
     {
         img: "/img/goku.png",
         description: "Vinlad saga - Makoto Yukimora",
         title: "07. I have no enemie",
         imgHeigth: "15vw",
-        scrollSpeed: "0.7"
+        scrollSpeed: "0.1"
     },
+
     {
         img: "/img/goku.png",
         description: "HxH - Yoshihiro Togashi",
@@ -56,25 +66,28 @@ export const gallaeryData = [
         imgHeigth: "15vw",
         scrollSpeed: "0"
     },
+
     {
         img: "/img/goku.png",
         description: "One pice - Eiichiro Oda",
         title: "09. Mans dreams never die",
         imgHeigth: "15vw",
-        scrollSpeed: "0.7"
+        scrollSpeed: "0.1"
     },
+
     {
         img: "/img/goku.png",
         description: "sample",
         title: "sample",
         imgHeigth: "15vw",
-        scrollSpeed: "0.7"
+        scrollSpeed: "0.1"
     },
+
     {
         img: "/img/goku.png",
         description: "sample",
         title: "sample",
         imgHeigth: "15vw",
-        scrollSpeed: "0.7"
+        scrollSpeed: "0"
     },
 ];

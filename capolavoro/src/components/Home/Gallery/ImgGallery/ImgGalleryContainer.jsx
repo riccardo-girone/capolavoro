@@ -1,10 +1,19 @@
 import styles from './ImgGalleryContainer.module.scss'
 
-const ImgGalleryContainer = ({ img, description, title, imgHeigth, scrollSpeed}) => {
+const ImgGalleryContainer = ({ imgData }) => {
+
+    let { img, description, title, imgHeigth, scrollSpeed, className} = imgData
+
+    if (!className) {
+       className = "" 
+    }
+
+    console.log(className, "🤠")
+
     return (
-        <div className={styles.card} data-scroll data-scroll-speed={scrollSpeed}>
+        <div className={`${styles.card} ${className}`} data-scroll data-scroll-speed={scrollSpeed}>
             <div className={styles.imgContainer} style={{height: imgHeigth}}>
-                <img src={img} alt="img"/>
+                <img src={imgData.img} alt="img"/>
             </div>
 
             <div className={styles.description}>{description}</div>
